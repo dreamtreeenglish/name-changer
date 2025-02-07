@@ -1,4 +1,4 @@
-function changeName(callback){
+function changeName(){
 
 const lastName = document.getElementById('last-name');
 
