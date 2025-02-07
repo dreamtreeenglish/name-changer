@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #e6f7e6;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #2d6a2d;
+}
+
+p {
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+input {
+  font-size: 18px;
+  padding: 8px;
+  margin: 5px;
+  border: 2px solid #6cbf6c;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 300px;
+}
+
+button {
+  background-color: #6cbf6c;
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #5aa85a;
+}
+
+#full-english-name,
+#self-introduction {
+  color: black;
+  margin-top: 15px;
+}

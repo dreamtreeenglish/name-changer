@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japanese to English Name</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Japanese to English Name Changer</h1>
+    <p>
+      日本では、姓、名で自己紹介するのが一般的です。英語で自分の名前を調べるには、以下のフォームをご利用ください。
+    </p>
+    <br />
+    <p>Type your last name:</p>
+    <input id="last-name" />
+    <p>Type your first name:</p>
+    <input id="first-name" />
+    <br />
+    <br />
+    <button id="name-change-button" onclick="changeName()">
+      My English Name
+    </button>
+    <p id="full-english-name"></p>
+    <p id="self-introduction"></p>
+    <br />
+    <button id="reset-button" onclick="reload();">Reset</button>
+    <script src="script.js"></script>
+  </body>
+</html>
